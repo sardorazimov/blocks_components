@@ -9,7 +9,7 @@ const Header = () => {
   const scrollPosition = useScrollPosition();
   return (
     <header
-      className={`sticky top-0 z-50 transition-shadow bg-slate-900 ${scrollPosition > 0
+      className={`sticky top-0 z-50 transition-shadow ${scrollPosition > 0
           ? "shadow bg-opacity-70 backdrop-blur-lg backdrop-filter"
           : "shadow-none"
         }`}

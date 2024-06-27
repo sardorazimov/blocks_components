@@ -4,7 +4,7 @@ import Hero from "./Hero"
 
 const Section = () => {
   return (
-    <div className="bg-gray-900 w-full h-screen">
+    <div className=" w-full h-screen">
       <div className="py-1  justify-between flex w-full h-[3.4rem] border border-gray-800">
          <h1 className="text-white my-3 ">More Ui Hero </h1>
          <div className="flex  justify-between">

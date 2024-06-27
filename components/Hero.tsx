@@ -6,7 +6,7 @@ import { Blocks, Copy, Heart, Link2, MoveRightIcon, Share } from 'lucide-react'
 
 const Hero = () => {
     return (
-        <div className='flex flex-col md:flex w-full h-full'>
+        <div className='flex flex-col md:flex w-full h-full bg-black'>
             <div className='w-full flex my-3 h-[3rem]  justify-between'>
                 <div className='flex md:flex'>
                     <h1 className='text-2xl text-white'>Landing Hero section more components</h1>
