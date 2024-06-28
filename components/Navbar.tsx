@@ -21,7 +21,9 @@ const Navbar = () => {
                                     <span className="font-medium ">blocks</span>
                                 </a>
                                 <div className="flex items-center gap-1.5">
-                                    <a className="flex items-center justify-center text-sm leading-[110%] px-4 py-2 rounded-md " href="/pricing">Pricing</a>
+                                    <Button className="flex items-center justify-center text-sm leading-[110%] px-4 py-2 rounded-md " 
+                                    onClick={() => router.push('/apu')}
+                                    >Api</Button>
                                     <a className="flex items-center justify-center text-sm leading-[110%] px-4 py-2 rounded-md    " href="/blog">Blog</a>
                                     <a className="flex items-center justify-center text-sm leading-[110%] px-4 py-2 rounded-md   " href="/contact">Contact</a>
                                     <Button className="flex items-center justify-center text-sm leading-[110%] px-4 py-2 rounded-md dark:bg-white dark:text-black "
@@ -44,7 +46,7 @@ const Navbar = () => {
                             <a className="font-normal flex space-x-2 items-center text-sm mr-4  text-black px-2 py-1  relative z-20" href="/">
                                 <div className="h-5 w-6 bg-black dark:bg-white rounded-br-lg rounded-tr-sm rounded-tl-lg rounded-bl-sm">
                                 </div>
-                                <span className="font-medium text-black dark:text-white">Every AI</span>
+                                <span className="font-medium text-black dark:text-white"></span>
                             </a><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" className="text-black dark:text-white h-6 w-6" height="1em" width="1em"
                                 xmlns="http://www.w3.org/2000/svg"><path d="M432 176H80c-8.8 0-16-7.2-16-16s7.2-16 16-16h352c8.8 0 16 7.2 16 16s-7.2 16-16 16zM432 272H80c-8.8 0-16-7.2-16-16s7.2-16 16-16h352c8.8 0 16 7.2 16 16s-7.2 16-16 16zM432 368H80c-8.8 0-16-7.2-16-16s7.2-16 16-16h352c8.8 0 16 7.2 16 16s-7.2 16-16 16z">
                                 </path></svg>
