@@ -21,7 +21,7 @@ const LandingHero = () => {
         </div>
         <div className="flex flex-wrap -m-4 hover ">
           <div className="xl:w-1/3 md:w-1/2 p-4 ">
-            <div className="border p-6 rounded-lg  cursor-pointer dark:bg-black bg-white text-gray-900 shadow-lg ">
+            <div className="border p-6 rounded-lg  cursor-pointer dark:bg-neutral-600 bg-white text-gray-900 shadow-lg hover:bg-neutral-300">
               <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-purple-600 text-white mb-4">
                 <svg
                   fill="none"
@@ -45,7 +45,7 @@ const LandingHero = () => {
             </div>
           </div>
           <div className="xl:w-1/3 md:w-1/2 p-4">
-            <div className="border  p-6 rounded-lg   cursor-pointer dark:bg-black bg-white text-gray-900 shadow-lg ">
+            <div className="border  p-6 rounded-lg   cursor-pointer dark:bg-neutral-600 bg-white text-gray-900 shadow-lg ">
               <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-green-500 text-white mb-4">
                 <svg
                   fill="none"
@@ -71,7 +71,7 @@ const LandingHero = () => {
             </div>
           </div>
           <div className="xl:w-1/3 md:w-1/2 p-4">
-            <div className="border  cursor-pointer dark:bg-black bg-white text-gray-900 shadow-lg  p-6 rounded-lg">
+            <div className="border  cursor-pointer dark:bg-neutral-600 bg-white text-gray-900 shadow-lg  p-6 rounded-lg">
               <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-orange-700 text-white mb-4">
                 <svg
                   fill="none"
@@ -96,7 +96,7 @@ const LandingHero = () => {
             </div>
           </div>
           <div className="xl:w-1/3 md:w-1/2 p-4">
-            <div className="border  p-6 rounded-lg  cursor-pointer dark:bg-black bg-white text-gray-900 shadow-lg ">
+            <div className="border  p-6 rounded-lg  cursor-pointer dark:bg-neutral-600 bg-white text-gray-900 shadow-lg ">
               <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-600 text-white mb-4">
                 <svg
                   fill="none"
@@ -120,7 +120,7 @@ const LandingHero = () => {
             </div>
           </div>
           <div className="xl:w-1/3 md:w-1/2 p-4">
-            <div className="border p-6 rounded-lg   cursor-pointer dark:bg-black bg-white text-gray-900 shadow-lg ">
+            <div className="border p-6 rounded-lg   cursor-pointer dark:bg-neutral-600 bg-white text-gray-900 shadow-lg ">
               <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-rose-600 text-white mb-4">
                 <svg
                   fill="none"
@@ -144,7 +144,7 @@ const LandingHero = () => {
             </div>
           </div>
           <div className="xl:w-1/3 md:w-1/2 p-4">
-            <div className="border p-6  rounded-lg  cursor-pointer dark:bg-black bg-white text-gray-900 shadow-lg ">
+            <div className="border p-6  rounded-lg  cursor-pointer dark:bg-neutral-600 bg-white text-gray-900 shadow-lg ">
               <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-violet-600 text-white mb-4">
                 <svg
                   fill="none"

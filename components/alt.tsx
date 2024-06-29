@@ -2,6 +2,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
 import Footer from './Footer'
+import AnimatedGridPatternDemo from './background'
 
 const Alt = () => {
   return (
@@ -14,10 +15,11 @@ const Alt = () => {
             </h1>
           </div>
           <div className="w-full md:w-1/2 py-8">
-            <img src="/brain.png" className="" />
+            <img src="/a.svg" className="" />
           </div>
         </div>
       </section>
+    
       <Footer />
     </div>
   )

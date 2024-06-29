@@ -21,13 +21,14 @@ const Navbar = () => {
                                     <span className="font-medium ">blocks</span>
                                 </a>
                                 <div className="flex items-center gap-1.5">
-                                    <Button className="flex items-center justify-center text-sm leading-[110%] px-4 py-2 rounded-md " 
+                                    <Button className="flex items-center justify-center text-sm leading-[110%] px-4 py-2
+                                     rounded-md bg-transparent text-black dark:text-white " 
                                     onClick={() => router.push('/apu')}
-                                    >Api</Button>
+                                     variant={'link'}>Api</Button>
                                     <a className="flex items-center justify-center text-sm leading-[110%] px-4 py-2 rounded-md    " href="/blog">Blog</a>
                                     <a className="flex items-center justify-center text-sm leading-[110%] px-4 py-2 rounded-md   " href="/contact">Contact</a>
-                                    <Button className="flex items-center justify-center text-sm leading-[110%] px-4 py-2 rounded-md dark:bg-white dark:text-black "
-                                     size={'lg'} onClick={() => router.push('/page')} >dashboard</Button>
+                                    <Button className="flex items-center justify-center text-sm leading-[110%] px-4 py-2 rounded-md bg-transparent"
+                                     size={'lg'} onClick={() => router.push('/page')} variant={'link'}>Dashboard</Button>
                                 </div>
                             </div>
                             <div className="flex space-x-2 items-center">
@@ -36,8 +37,8 @@ const Navbar = () => {
                                 </div>
                                 <a className="relative z-10 bg-transparent hover:bg-gray-100 border border-transparent text-black text-sm md:text-sm transition font-medium duration-200 rounded-full px-4 py-2 flex
    items-center justify-center dark:text-white  dark:hover:shadow-xl" href="/login">Login</a>
-                                <a className="bg-neutral-900 relative z-10 hover:bg-black/90 border border-transparent text-white text-sm md:text-sm transition font-medium duration-200 rounded-full px-4 py-2 flex items-center
-    justify-center shadow-[0px_-1px_0px_0px_#FFFFFF40_inset,_0px_1px_0px_0px_#FFFFFF40_inset]" href="/signup">Sign Up</a>
+                                <Button className="bg-neutral-900 relative z-10 hover:bg-black/90 border border-transparent text-white text-sm md:text-sm transition font-medium duration-200 rounded-full px-4 py-2 flex items-center
+    justify-center shadow-[0px_-1px_0px_0px_#FFFFFF40_inset,_0px_1px_0px_0px_#FFFFFF40_inset]" onClick={() => router.push('/login')}>Sign Up</Button>
                             </div>
                         </div>
                     </div>

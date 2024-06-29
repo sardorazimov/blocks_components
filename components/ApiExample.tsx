@@ -27,16 +27,44 @@ const ApiExample = () => {
                     <img src="/api.png" alt="" className='object-fill' />
                 </div>
             </div>
-            <div className=' py-1 grid grid-cols-3 gap-4' />
-            <div className=' w-full'>
-                <h1 className='text-center '>More Example</h1>
-                <div>
-                    <img src="indir.png" alt="" />
+            <div className=' py-1 flex w-full ' />
+            <div className=' w-full '>
+                <h1 className='text-center text-4xl font-bold '>More Example</h1>
+                <div className='flex justify-between '>
+                    <div className='py-3 mx-1'>
+                        <h1 className='text-3xl'>Step One</h1>
+                       <h2>
+                       In the early 2000s, web APIs emerged as a new method for emerging 
+                       startups to not only make products and services available online, but to also enable partners and third-party resellers to extend the reach of their platforms. This era of APIs was defined by Salesforce, eBay, and Amazon, and these
+                        companies continue to dominate the API playing field today.
+                        </h2> 
+                    </div>
+                    <img src="indir.png" alt="" className='' /> 
                 </div>
-                <div>
+                <div className='flex justify-between'>
                     <img src="indir1.png" alt="" />
+                    <div>
+                    <div className='py-3 mx-1'>
+                        <h1 className='text-3xl'>Step One</h1>
+                       <h2>
+                       In the early 2000s, web APIs emerged as a new method for emerging 
+                       startups to not only make products and services available online, but to also enable partners and third-party resellers to extend the reach of their platforms. This era of APIs was defined by Salesforce, eBay, and Amazon, and these
+                        companies continue to dominate the API playing field today.
+                        </h2> 
+                    </div>
+                    </div>
                 </div>
-                <div>
+                <div className='flex justify-between'>
+                    <div>
+                    <div className='py-3 mx-1'>
+                        <h1 className='text-3xl'>Step One</h1>
+                       <h2>
+                       In the early 2000s, web APIs emerged as a new method for emerging 
+                       startups to not only make products and services available online, but to also enable partners and third-party resellers to extend the reach of their platforms. This era of APIs was defined by Salesforce, eBay, and Amazon, and these
+                        companies continue to dominate the API playing field today.
+                        </h2> 
+                    </div>
+                    </div>
                     <img src="indir2.png" alt="" />
                 </div>
             </div>

@@ -2,7 +2,7 @@
 import { DiscIcon, Github, Instagram } from 'lucide-react'
 import Link from 'next/link'
 import React from 'react'
-import { FaDiscord } from "react-icons/fa";
+import { FaDiscord, FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -17,22 +17,23 @@ const Footer = () => {
          </div>
          <div className='flex w-full md:w-1/2 justify-between'>
          <section>
-          {} 
+          S{} 
          </section>
          <div className='flex gap-4 '>
          <Link href={'/'}>
             <Instagram />
         </Link> 
          <Link href={'/'}>
-            <Github />
+            <FaGithub size={'26'} />
         </Link> 
          <Link href={'/'}>
-         <FaDiscord />
+         <FaDiscord size={'26'} />
 
         </Link> 
          </div>
          </div>
         </div>
+
       </footer>
     </div>
   )
